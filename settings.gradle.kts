@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TopNewsCompose"
 include(":app")
-
+include(":newsapi")
