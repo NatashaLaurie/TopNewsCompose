@@ -23,3 +23,4 @@ rootProject.name = "TopNewsCompose"
 include(":app")
 include(":newsapi")
 include(":database")
+include(":news-data")
