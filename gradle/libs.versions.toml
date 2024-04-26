@@ -1,6 +1,7 @@
 [versions]
 agp = "8.3.2"
 annotation = "1.8.0-beta02"
+junitJunit = "4.12"
 kotlin = "1.9.22"
 kotlinxSerializationJson = "1.6.3"
 coreKtx = "1.13.0"
@@ -50,6 +51,7 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+junit-v412 = { module = "junit:junit", version.ref = "junitJunit" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
